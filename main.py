@@ -28,7 +28,7 @@ class TikReport:
             req =  Api(cookies = this.cookies).tiktok_request('aweme/v2/aweme/feedback/', extra_params = params)
             print(f'reported: user - {reason} - {req.json()["extra"]}')
             
-    def reportVideo(this, videoId: str):
+    def reportVideo(this, videoId: str): 7465097324335729928
         params = {
             'nickname'          : this.userInfo['userInfo']['user']['nickname'],
             'object_id'         : videoId,
